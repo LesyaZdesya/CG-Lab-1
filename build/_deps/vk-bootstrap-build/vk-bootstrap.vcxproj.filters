@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="D:\lAB_CG\vulkan-starter-app-master\build\_deps\vk-bootstrap-src\src\VkBootstrap.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="D:\lAB_CG\vulkan-starter-app-master\build\_deps\vk-bootstrap-src\src\VkBootstrap.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="D:\lAB_CG\vulkan-starter-app-master\build\_deps\vk-bootstrap-src\src\VkBootstrapDispatch.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="D:\lAB_CG\vulkan-starter-app-master\build\_deps\vk-bootstrap-src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{961B37B3-917B-3B5C-B8B6-B6B8E6D50625}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{3D178518-7671-36EE-8BFF-01BBC9586D37}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

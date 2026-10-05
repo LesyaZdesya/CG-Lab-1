@@ -53,16 +53,16 @@ VkShaderModule loadShaderModule(const char* path) {
 namespace application {
 
     namespace {
-        
+
         const Vertex cube_vertices[] = {
-            { { -0.5f, -0.5f, -0.5f }, { 1.0f, 1.0f, 1.0f } }, 
-            { {  0.5f, -0.5f, -0.5f }, { 1.0f, 1.0f, 1.0f } }, 
-            { {  0.5f,  0.5f, -0.5f }, { 1.0f, 1.0f, 1.0f } }, 
-            { { -0.5f,  0.5f, -0.5f }, { 1.0f, 1.0f, 1.0f } }, 
-            { { -0.5f, -0.5f,  0.5f }, { 1.0f, 1.0f, 1.0f } }, 
-            { {  0.5f, -0.5f,  0.5f }, { 1.0f, 1.0f, 1.0f } }, 
-            { {  0.5f,  0.5f,  0.5f }, { 1.0f, 1.0f, 1.0f } }, 
-            { { -0.5f,  0.5f,  0.5f }, { 1.0f, 1.0f, 1.0f } }, 
+            { { -0.5f, -0.5f, -0.5f }, { 1.0f, 1.0f, 1.0f } },
+            { {  0.5f, -0.5f, -0.5f }, { 1.0f, 1.0f, 1.0f } },
+            { {  0.5f,  0.5f, -0.5f }, { 1.0f, 1.0f, 1.0f } },
+            { { -0.5f,  0.5f, -0.5f }, { 1.0f, 1.0f, 1.0f } },
+            { { -0.5f, -0.5f,  0.5f }, { 1.0f, 1.0f, 1.0f } },
+            { {  0.5f, -0.5f,  0.5f }, { 1.0f, 1.0f, 1.0f } },
+            { {  0.5f,  0.5f,  0.5f }, { 1.0f, 1.0f, 1.0f } },
+            { { -0.5f,  0.5f,  0.5f }, { 1.0f, 1.0f, 1.0f } },
         };
 
         const uint32_t cube_indices[] = {
@@ -619,7 +619,7 @@ namespace application {
 
         static bool  is_playing = true;
         static float anim_speed = 1.0f;
-        static float anim_radius = 1.5f;
+        static float anim_radius = 0.5f;
         static float anim_height = 0.3f;
         static float anim_angle = 0.0f;
 
@@ -676,26 +676,26 @@ namespace application {
 
         ImGui::End();
 
-        glm::mat4 model = glm::mat4(1.0f);
 
-        glm::vec3 final_position = manual_position;
-       
-        // восьмерка
-        final_position.x += anim_radius * std::sin(anim_angle * 1.0f);
-        final_position.z += anim_radius * std::sin(anim_angle * 2.0f) * 0.5f;
-        final_position.y += anim_height * std::sin(anim_angle * 3.0f);
+        glm::mat4 model0 = glm::mat4(1.0f);
 
-        model = glm::translate(model, final_position);
-        model = glm::rotate(model, glm::radians(manual_rotation.x), glm::vec3(1, 0, 0));
-        model = glm::rotate(model, glm::radians(manual_rotation.y) + anim_angle * 2.0f, glm::vec3(0, 1, 0));
-        model = glm::rotate(model, glm::radians(manual_rotation.z), glm::vec3(0, 0, 1));
-        model = glm::scale(model, scale);
+        glm::vec3 final_position0 = manual_position;
+        final_position0.x += anim_radius * std::sin(anim_angle * 1.0f);
+        final_position0.z += anim_radius * std::sin(anim_angle * 2.0f) * 0.5f;
+        final_position0.y += anim_height * std::sin(anim_angle * 3.0f);
+
+        model0 = glm::translate(model0, final_position0);
+        model0 = glm::rotate(model0, glm::radians(manual_rotation.x), glm::vec3(1, 0, 0));
+        model0 = glm::rotate(model0, glm::radians(manual_rotation.y) + anim_angle * 2.0f, glm::vec3(0, 1, 0));
+        model0 = glm::rotate(model0, glm::radians(manual_rotation.z), glm::vec3(0, 0, 1));
+        model0 = glm::scale(model0, scale);
 
         glm::mat4 view = glm::lookAt(
             glm::vec3(2.5f, 2.0f, 3.5f),
             glm::vec3(0.0f, 0.0f, 0.0f),
             glm::vec3(0.0f, 1.0f, 0.0f)
         );
+
 
         glm::mat4 proj;
         if (projection_mode == 0) {
@@ -714,19 +714,40 @@ namespace application {
         vk_scene_uniform_buffer_mapped->view = view;
         vk_scene_uniform_buffer_mapped->proj = proj;
 
-        vk_model_uniform_buffers_mapped[0]->model = model;
+        vk_model_uniform_buffers_mapped[0]->model = model0;
         vk_model_uniform_buffers_mapped[0]->color = color;
 
+
         glm::mat4 model1 = glm::mat4(1.0f);
-        model1 = glm::translate(model1, glm::vec3(-2.0f, 0.0f, 0.0f));
-        model1 = glm::rotate(model1, glm::radians(45.0f), glm::vec3(0, 1, 0));
+
+        float phase1 = anim_angle + 2.0f * 3.14159265f / 3.0f;
+
+        glm::vec3 final_position1 = glm::vec3(-2.0f, 0.0f, 0.0f);
+        final_position1.x += anim_radius * std::sin(phase1 * 1.0f);
+        final_position1.z += anim_radius * std::sin(phase1 * 2.0f) * 0.5f;
+        final_position1.y += anim_height * std::sin(phase1 * 3.0f);
+
+        model1 = glm::translate(model1, final_position1);
+        model1 = glm::rotate(model1, phase1 * 2.0f, glm::vec3(0, 1, 0));
+        model1 = glm::scale(model1, glm::vec3(0.8f));
+
         vk_model_uniform_buffers_mapped[1]->model = model1;
         vk_model_uniform_buffers_mapped[1]->color = glm::vec3(1.0f, 0.5f, 0.2f);
 
         glm::mat4 model2 = glm::mat4(1.0f);
-        model2 = glm::translate(model2, glm::vec3(2.0f, 0.0f, 0.0f));
-        model2 = glm::rotate(model2, glm::radians(-30.0f), glm::vec3(0, 1, 0));
+
+
+        float phase2 = anim_angle + 4.0f * 3.14159265f / 3.0f;
+
+        glm::vec3 final_position2 = glm::vec3(2.0f, 0.0f, 0.0f);
+        final_position2.x += anim_radius * std::sin(phase2 * 1.0f);
+        final_position2.z += anim_radius * std::sin(phase2 * 2.0f) * 0.5f;
+        final_position2.y += anim_height * std::sin(phase2 * 3.0f);
+
+        model2 = glm::translate(model2, final_position2);
+        model2 = glm::rotate(model2, phase2 * 2.0f, glm::vec3(0, 1, 0));
         model2 = glm::scale(model2, glm::vec3(0.6f));
+
         vk_model_uniform_buffers_mapped[2]->model = model2;
         vk_model_uniform_buffers_mapped[2]->color = glm::vec3(0.2f, 0.5f, 1.0f);
     }

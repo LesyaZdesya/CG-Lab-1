@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\lAB_CG\vulkan-starter-app-master\build\_deps\imgui-subbuild\CMakeFiles\0e058898286f7bb8228053f9c1ab0d89\imgui-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\lAB_CG\vulkan-starter-app-master\build\_deps\imgui-subbuild\CMakeFiles\0e058898286f7bb8228053f9c1ab0d89\imgui-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\lAB_CG\vulkan-starter-app-master\build\_deps\imgui-subbuild\CMakeFiles\0e058898286f7bb8228053f9c1ab0d89\imgui-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\lAB_CG\vulkan-starter-app-master\build\_deps\imgui-subbuild\CMakeFiles\0e058898286f7bb8228053f9c1ab0d89\imgui-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\lAB_CG\vulkan-starter-app-master\build\_deps\imgui-subbuild\CMakeFiles\0e058898286f7bb8228053f9c1ab0d89\imgui-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\lAB_CG\vulkan-starter-app-master\build\_deps\imgui-subbuild\CMakeFiles\0e058898286f7bb8228053f9c1ab0d89\imgui-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\lAB_CG\vulkan-starter-app-master\build\_deps\imgui-subbuild\CMakeFiles\0e058898286f7bb8228053f9c1ab0d89\imgui-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\lAB_CG\vulkan-starter-app-master\build\_deps\imgui-subbuild\CMakeFiles\0e058898286f7bb8228053f9c1ab0d89\imgui-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\lAB_CG\vulkan-starter-app-master\build\_deps\imgui-subbuild\CMakeFiles\090c8937b507337ff71d41d6d9c55881\imgui-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\lAB_CG\vulkan-starter-app-master\build\_deps\imgui-subbuild\CMakeFiles\7c71634a27140bfc12d69b683d31e995\imgui-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\lAB_CG\vulkan-starter-app-master\build\_deps\imgui-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\lAB_CG\vulkan-starter-app-master\build\_deps\imgui-subbuild\CMakeFiles\imgui-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{8B5D60ED-3872-321D-ABF6-8F831A57AB64}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

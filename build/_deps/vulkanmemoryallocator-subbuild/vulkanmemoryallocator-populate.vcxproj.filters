@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="18.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <CustomBuild Include="D:\lAB_CG\vulkan-starter-app-master\build\_deps\vulkanmemoryallocator-subbuild\CMakeFiles\7c9d648fd0eb2c1b6cc35a86e98e6b17\vulkanmemoryallocator-populate-mkdir.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\lAB_CG\vulkan-starter-app-master\build\_deps\vulkanmemoryallocator-subbuild\CMakeFiles\7c9d648fd0eb2c1b6cc35a86e98e6b17\vulkanmemoryallocator-populate-download.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\lAB_CG\vulkan-starter-app-master\build\_deps\vulkanmemoryallocator-subbuild\CMakeFiles\7c9d648fd0eb2c1b6cc35a86e98e6b17\vulkanmemoryallocator-populate-update.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\lAB_CG\vulkan-starter-app-master\build\_deps\vulkanmemoryallocator-subbuild\CMakeFiles\7c9d648fd0eb2c1b6cc35a86e98e6b17\vulkanmemoryallocator-populate-patch.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\lAB_CG\vulkan-starter-app-master\build\_deps\vulkanmemoryallocator-subbuild\CMakeFiles\7c9d648fd0eb2c1b6cc35a86e98e6b17\vulkanmemoryallocator-populate-configure.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\lAB_CG\vulkan-starter-app-master\build\_deps\vulkanmemoryallocator-subbuild\CMakeFiles\7c9d648fd0eb2c1b6cc35a86e98e6b17\vulkanmemoryallocator-populate-build.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\lAB_CG\vulkan-starter-app-master\build\_deps\vulkanmemoryallocator-subbuild\CMakeFiles\7c9d648fd0eb2c1b6cc35a86e98e6b17\vulkanmemoryallocator-populate-install.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\lAB_CG\vulkan-starter-app-master\build\_deps\vulkanmemoryallocator-subbuild\CMakeFiles\7c9d648fd0eb2c1b6cc35a86e98e6b17\vulkanmemoryallocator-populate-test.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\lAB_CG\vulkan-starter-app-master\build\_deps\vulkanmemoryallocator-subbuild\CMakeFiles\0727dacd0832482b9d3d0e1cfc1514d9\vulkanmemoryallocator-populate-complete.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\lAB_CG\vulkan-starter-app-master\build\_deps\vulkanmemoryallocator-subbuild\CMakeFiles\ba0c32c2c56466c075bd4530d9aabdcc\vulkanmemoryallocator-populate.rule">
+      <Filter>CMake Rules</Filter>
+    </CustomBuild>
+    <CustomBuild Include="D:\lAB_CG\vulkan-starter-app-master\build\_deps\vulkanmemoryallocator-subbuild\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="D:\lAB_CG\vulkan-starter-app-master\build\_deps\vulkanmemoryallocator-subbuild\CMakeFiles\vulkanmemoryallocator-populate" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="CMake Rules">
+      <UniqueIdentifier>{4F19C249-BA0D-381D-88A0-BE2DB8E4B5E7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

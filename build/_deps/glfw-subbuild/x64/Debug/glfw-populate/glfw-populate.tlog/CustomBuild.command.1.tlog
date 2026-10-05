@@ -1,0 +1,150 @@
+^D:\LAB_CG\VULKAN-STARTER-APP-MASTER\BUILD\_DEPS\GLFW-SUBBUILD\CMAKEFILES\39EE8779DEB5B1FEAC24D1B9E9D5AEC0\GLFW-POPULATE-MKDIR.RULE
+setlocal
+D:\CMake\bin\cmake.exe -Dcfgdir=/Debug -P D:/lAB_CG/vulkan-starter-app-master/build/_deps/glfw-subbuild/glfw-populate-prefix/tmp/glfw-populate-mkdirs.cmake
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E touch D:/lAB_CG/vulkan-starter-app-master/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/Debug/glfw-populate-mkdir
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\LAB_CG\VULKAN-STARTER-APP-MASTER\BUILD\_DEPS\GLFW-SUBBUILD\CMAKEFILES\39EE8779DEB5B1FEAC24D1B9E9D5AEC0\GLFW-POPULATE-DOWNLOAD.RULE
+setlocal
+cd D:\lAB_CG\vulkan-starter-app-master\build\_deps
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P D:/lAB_CG/vulkan-starter-app-master/build/_deps/glfw-subbuild/glfw-populate-prefix/tmp/glfw-populate-gitclone.cmake
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E touch D:/lAB_CG/vulkan-starter-app-master/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/Debug/glfw-populate-download
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\LAB_CG\VULKAN-STARTER-APP-MASTER\BUILD\_DEPS\GLFW-SUBBUILD\CMAKEFILES\39EE8779DEB5B1FEAC24D1B9E9D5AEC0\GLFW-POPULATE-UPDATE.RULE
+setlocal
+cd D:\lAB_CG\vulkan-starter-app-master\build\_deps\glfw-src
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -Dcan_fetch=YES -DCMAKE_MESSAGE_LOG_LEVEL=VERBOSE -P D:/lAB_CG/vulkan-starter-app-master/build/_deps/glfw-subbuild/glfw-populate-prefix/tmp/glfw-populate-gitupdate.cmake
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\LAB_CG\VULKAN-STARTER-APP-MASTER\BUILD\_DEPS\GLFW-SUBBUILD\CMAKEFILES\39EE8779DEB5B1FEAC24D1B9E9D5AEC0\GLFW-POPULATE-PATCH.RULE
+setlocal
+D:\CMake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E touch D:/lAB_CG/vulkan-starter-app-master/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/Debug/glfw-populate-patch
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\LAB_CG\VULKAN-STARTER-APP-MASTER\BUILD\_DEPS\GLFW-SUBBUILD\CMAKEFILES\39EE8779DEB5B1FEAC24D1B9E9D5AEC0\GLFW-POPULATE-CONFIGURE.RULE
+setlocal
+cd D:\lAB_CG\vulkan-starter-app-master\build\_deps\glfw-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E touch D:/lAB_CG/vulkan-starter-app-master/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/Debug/glfw-populate-configure
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\LAB_CG\VULKAN-STARTER-APP-MASTER\BUILD\_DEPS\GLFW-SUBBUILD\CMAKEFILES\39EE8779DEB5B1FEAC24D1B9E9D5AEC0\GLFW-POPULATE-BUILD.RULE
+setlocal
+cd D:\lAB_CG\vulkan-starter-app-master\build\_deps\glfw-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E touch D:/lAB_CG/vulkan-starter-app-master/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/Debug/glfw-populate-build
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\LAB_CG\VULKAN-STARTER-APP-MASTER\BUILD\_DEPS\GLFW-SUBBUILD\CMAKEFILES\39EE8779DEB5B1FEAC24D1B9E9D5AEC0\GLFW-POPULATE-INSTALL.RULE
+setlocal
+cd D:\lAB_CG\vulkan-starter-app-master\build\_deps\glfw-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E touch D:/lAB_CG/vulkan-starter-app-master/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/Debug/glfw-populate-install
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\LAB_CG\VULKAN-STARTER-APP-MASTER\BUILD\_DEPS\GLFW-SUBBUILD\CMAKEFILES\39EE8779DEB5B1FEAC24D1B9E9D5AEC0\GLFW-POPULATE-TEST.RULE
+setlocal
+cd D:\lAB_CG\vulkan-starter-app-master\build\_deps\glfw-build
+if %errorlevel% neq 0 goto :cmEnd
+D:
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E echo_append
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E touch D:/lAB_CG/vulkan-starter-app-master/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/Debug/glfw-populate-test
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\LAB_CG\VULKAN-STARTER-APP-MASTER\BUILD\_DEPS\GLFW-SUBBUILD\CMAKEFILES\53C194BD5D3840E93F97B042210780DE\GLFW-POPULATE-COMPLETE.RULE
+setlocal
+D:\CMake\bin\cmake.exe -E make_directory D:/lAB_CG/vulkan-starter-app-master/build/_deps/glfw-subbuild/CMakeFiles/Debug
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E touch D:/lAB_CG/vulkan-starter-app-master/build/_deps/glfw-subbuild/CMakeFiles/Debug/glfw-populate-complete
+if %errorlevel% neq 0 goto :cmEnd
+D:\CMake\bin\cmake.exe -E touch D:/lAB_CG/vulkan-starter-app-master/build/_deps/glfw-subbuild/glfw-populate-prefix/src/glfw-populate-stamp/Debug/glfw-populate-done
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\LAB_CG\VULKAN-STARTER-APP-MASTER\BUILD\_DEPS\GLFW-SUBBUILD\CMAKEFILES\F07020744D99B5625D9542A3FC96421C\GLFW-POPULATE.RULE
+setlocal
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+^D:\LAB_CG\VULKAN-STARTER-APP-MASTER\BUILD\_DEPS\GLFW-SUBBUILD\CMAKELISTS.TXT
+setlocal
+D:\CMake\bin\cmake.exe -SD:/lAB_CG/vulkan-starter-app-master/build/_deps/glfw-subbuild -BD:/lAB_CG/vulkan-starter-app-master/build/_deps/glfw-subbuild --check-stamp-file D:/lAB_CG/vulkan-starter-app-master/build/_deps/glfw-subbuild/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

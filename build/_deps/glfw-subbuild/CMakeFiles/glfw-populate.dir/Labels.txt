@@ -1,0 +1,14 @@
+# Target labels
+ glfw-populate
+# Source files and their labels
+D:/lAB_CG/vulkan-starter-app-master/build/_deps/glfw-subbuild/CMakeFiles/glfw-populate
+D:/lAB_CG/vulkan-starter-app-master/build/_deps/glfw-subbuild/CMakeFiles/f07020744d99b5625d9542a3fc96421c/glfw-populate.rule
+D:/lAB_CG/vulkan-starter-app-master/build/_deps/glfw-subbuild/CMakeFiles/53c194bd5d3840e93f97b042210780de/glfw-populate-complete.rule
+D:/lAB_CG/vulkan-starter-app-master/build/_deps/glfw-subbuild/CMakeFiles/39ee8779deb5b1feac24d1b9e9d5aec0/glfw-populate-build.rule
+D:/lAB_CG/vulkan-starter-app-master/build/_deps/glfw-subbuild/CMakeFiles/39ee8779deb5b1feac24d1b9e9d5aec0/glfw-populate-configure.rule
+D:/lAB_CG/vulkan-starter-app-master/build/_deps/glfw-subbuild/CMakeFiles/39ee8779deb5b1feac24d1b9e9d5aec0/glfw-populate-download.rule
+D:/lAB_CG/vulkan-starter-app-master/build/_deps/glfw-subbuild/CMakeFiles/39ee8779deb5b1feac24d1b9e9d5aec0/glfw-populate-install.rule
+D:/lAB_CG/vulkan-starter-app-master/build/_deps/glfw-subbuild/CMakeFiles/39ee8779deb5b1feac24d1b9e9d5aec0/glfw-populate-mkdir.rule
+D:/lAB_CG/vulkan-starter-app-master/build/_deps/glfw-subbuild/CMakeFiles/39ee8779deb5b1feac24d1b9e9d5aec0/glfw-populate-patch.rule
+D:/lAB_CG/vulkan-starter-app-master/build/_deps/glfw-subbuild/CMakeFiles/39ee8779deb5b1feac24d1b9e9d5aec0/glfw-populate-test.rule
+D:/lAB_CG/vulkan-starter-app-master/build/_deps/glfw-subbuild/CMakeFiles/39ee8779deb5b1feac24d1b9e9d5aec0/glfw-populate-update.rule

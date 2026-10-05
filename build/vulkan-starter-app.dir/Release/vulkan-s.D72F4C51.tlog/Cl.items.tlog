@@ -1,0 +1,10 @@
+D:\lAB_CG\vulkan-starter-app-master\source\main.cpp;D:\lAB_CG\vulkan-starter-app-master\build\vulkan-starter-app.dir\Release\main.obj
+D:\lAB_CG\vulkan-starter-app-master\source\graphics_internal.cpp;D:\lAB_CG\vulkan-starter-app-master\build\vulkan-starter-app.dir\Release\graphics_internal.obj
+D:\lAB_CG\vulkan-starter-app-master\source\application.cpp;D:\lAB_CG\vulkan-starter-app-master\build\vulkan-starter-app.dir\Release\application.obj
+D:\lAB_CG\vulkan-starter-app-master\build\_deps\imgui-src\backends\imgui_impl_glfw.cpp;D:\lAB_CG\vulkan-starter-app-master\build\vulkan-starter-app.dir\Release\imgui_impl_glfw.obj
+D:\lAB_CG\vulkan-starter-app-master\build\_deps\imgui-src\backends\imgui_impl_vulkan.cpp;D:\lAB_CG\vulkan-starter-app-master\build\vulkan-starter-app.dir\Release\imgui_impl_vulkan.obj
+D:\lAB_CG\vulkan-starter-app-master\build\_deps\imgui-src\imgui.cpp;D:\lAB_CG\vulkan-starter-app-master\build\vulkan-starter-app.dir\Release\imgui.obj
+D:\lAB_CG\vulkan-starter-app-master\build\_deps\imgui-src\imgui_draw.cpp;D:\lAB_CG\vulkan-starter-app-master\build\vulkan-starter-app.dir\Release\imgui_draw.obj
+D:\lAB_CG\vulkan-starter-app-master\build\_deps\imgui-src\imgui_tables.cpp;D:\lAB_CG\vulkan-starter-app-master\build\vulkan-starter-app.dir\Release\imgui_tables.obj
+D:\lAB_CG\vulkan-starter-app-master\build\_deps\imgui-src\imgui_widgets.cpp;D:\lAB_CG\vulkan-starter-app-master\build\vulkan-starter-app.dir\Release\imgui_widgets.obj
+D:\lAB_CG\vulkan-starter-app-master\build\_deps\imgui-src\imgui_demo.cpp;D:\lAB_CG\vulkan-starter-app-master\build\vulkan-starter-app.dir\Release\imgui_demo.obj

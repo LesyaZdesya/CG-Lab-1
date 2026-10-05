@@ -1,0 +1,10 @@
+^D:\LAB_CG\VULKAN-STARTER-APP-MASTER\BUILD\CMAKEFILES\7A3DF9EA6EABB3B8B8C64ADFDFFF51AD\GENERATE.STAMP.RULE
+setlocal
+D:\CMake\bin\cmake.exe -SD:/lAB_CG/vulkan-starter-app-master -BD:/lAB_CG/vulkan-starter-app-master/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file D:/lAB_CG/vulkan-starter-app-master/build/vulkan-starter-app.slnx
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

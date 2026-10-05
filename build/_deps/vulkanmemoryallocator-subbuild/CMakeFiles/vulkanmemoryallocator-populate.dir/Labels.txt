@@ -1,0 +1,14 @@
+# Target labels
+ vulkanmemoryallocator-populate
+# Source files and their labels
+D:/lAB_CG/vulkan-starter-app-master/build/_deps/vulkanmemoryallocator-subbuild/CMakeFiles/vulkanmemoryallocator-populate
+D:/lAB_CG/vulkan-starter-app-master/build/_deps/vulkanmemoryallocator-subbuild/CMakeFiles/ba0c32c2c56466c075bd4530d9aabdcc/vulkanmemoryallocator-populate.rule
+D:/lAB_CG/vulkan-starter-app-master/build/_deps/vulkanmemoryallocator-subbuild/CMakeFiles/0727dacd0832482b9d3d0e1cfc1514d9/vulkanmemoryallocator-populate-complete.rule
+D:/lAB_CG/vulkan-starter-app-master/build/_deps/vulkanmemoryallocator-subbuild/CMakeFiles/7c9d648fd0eb2c1b6cc35a86e98e6b17/vulkanmemoryallocator-populate-build.rule
+D:/lAB_CG/vulkan-starter-app-master/build/_deps/vulkanmemoryallocator-subbuild/CMakeFiles/7c9d648fd0eb2c1b6cc35a86e98e6b17/vulkanmemoryallocator-populate-configure.rule
+D:/lAB_CG/vulkan-starter-app-master/build/_deps/vulkanmemoryallocator-subbuild/CMakeFiles/7c9d648fd0eb2c1b6cc35a86e98e6b17/vulkanmemoryallocator-populate-download.rule
+D:/lAB_CG/vulkan-starter-app-master/build/_deps/vulkanmemoryallocator-subbuild/CMakeFiles/7c9d648fd0eb2c1b6cc35a86e98e6b17/vulkanmemoryallocator-populate-install.rule
+D:/lAB_CG/vulkan-starter-app-master/build/_deps/vulkanmemoryallocator-subbuild/CMakeFiles/7c9d648fd0eb2c1b6cc35a86e98e6b17/vulkanmemoryallocator-populate-mkdir.rule
+D:/lAB_CG/vulkan-starter-app-master/build/_deps/vulkanmemoryallocator-subbuild/CMakeFiles/7c9d648fd0eb2c1b6cc35a86e98e6b17/vulkanmemoryallocator-populate-patch.rule
+D:/lAB_CG/vulkan-starter-app-master/build/_deps/vulkanmemoryallocator-subbuild/CMakeFiles/7c9d648fd0eb2c1b6cc35a86e98e6b17/vulkanmemoryallocator-populate-test.rule
+D:/lAB_CG/vulkan-starter-app-master/build/_deps/vulkanmemoryallocator-subbuild/CMakeFiles/7c9d648fd0eb2c1b6cc35a86e98e6b17/vulkanmemoryallocator-populate-update.rule
