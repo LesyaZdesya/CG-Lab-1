@@ -1,7 +1,0 @@
-{
-	"InstallScripts" : 
-	[
-		"D:/lAB_CG/vulkan-starter-app-master/build/_deps/vk-bootstrap-subbuild/cmake_install.cmake"
-	],
-	"Parallel" : false
-}
